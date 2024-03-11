@@ -19,15 +19,89 @@ Testing the webserver
 from http.server import HTTPServer, BaseHTTPRequestHandler
 content = """
 <!DOCTYPE html>
-<html>
-<head>
-<title>My webserver</title>
-</head>
-<body>
-<h1>Welcome<h1>
-</body>
-</html>
+<HTML>
+    <head>
+        
+    </head>
+    <body
+        bgcolor="pink">
+        <font color="black"  size="75" >
+        <center><h1>HOMIES OF SEC</h1></center>
+        <table bgcolor="red"
+        border="20" 
+        align="center">
+            <tr
+            bgcolor="white"
+            cellspace="10">
+                <th>NAME</th>
+                <TH>DEPT</TH>
+                <TH>AGE</TH>
+            </tr>
+            <TR  bgcolor="white"
+            cellspace="10">
+                <TD> KAMALESH</TD>
+                <TD> CSE</TD>
+                <TD>17 </TD>
+            </TR>
+            <TR bgcolor="white"
+            cellspace="10">
+                <TD> KIRAN</TD>
+                <TD> CSE</TD>
+                <TD>18</TD>
+            </TR>
+            <TR bgcolor="white"
+            cellspace="10">
+                <TD> ROHIT</TD>
+                <TD> CSE</TD>
+                <TD>19</TD>
+            </TR>
+            <TR bgcolor="white"
+            cellspace="10">
+                <TD> PRADEEP</TD>
+                <TD> IT</TD>
+                <TD>18</TD>
+            </TR>
+            <TR bgcolor="white"
+            cellspace="10">
+                <TD>SUBBIAH</TD>
+                <TD> IT</TD>
+                <TD>17</TD>
+            </TR>
+            <TR bgcolor="WHITE"
+            cellspace="10" >
+                <TD> JABEZ</TD>
+                <TD> CSE</TD>
+                <TD>18</TD>
+            </TR>
+            <TR bgcolor="white"
+            cellspace="10">
+                <TD>DEVA SANJAY</TD>
+                <TD> CSE</TD>
+                <TD>17</TD>
+            </TR>
+            <TR bgcolor="white"
+            cellspace="10">
+                <TD> KAVIYA</TD>
+                <TD> CSE</TD>
+                <TD>18</TD>
+            </TR>
+            <TR bgcolor="white"
+            cellspace="10">
+                <TD> RAKSHITHA</TD>
+                <TD> IT</TD>
+                <TD>18</TD>
+            </TR>
+            <TR bgcolor="white"
+             cellspace="10">
+                <TD> DAISY</TD>
+                <TD> IT</TD>
+                <TD>18 </TD>
+            </TR>
+        </table>
+    </body>
+</HTML>
 """
+
 class myhandler(BaseHTTPRequestHandler):
     def do_GET(self):
         print("request received")
@@ -41,7 +115,12 @@ print("my webserver is running...")
 httpd.serve_forever()
 ```
 
+
 ## OUTPUT:
-![OUTPUT](./image/S.png)
+
+![Screenshot 2024-03-11 190612](https://github.com/sakamalesh/simplewebserver2/assets/149148235/b4c39671-36d5-4a31-a2bb-1e73db8063f5)
+
+![Screenshot 2024-03-11 190635](https://github.com/sakamalesh/simplewebserver2/assets/149148235/6ab8f2be-a17d-4968-b870-41d0f5c3007b)
+
 ## RESULT:
 Success
